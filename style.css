@@ -65,7 +65,7 @@ h1, h2, h3 {
 .logo {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.8rem;
-    color: var(--accent-color);
+    color: black(--accent-color);
     font-weight: 700;
 }
 
@@ -79,14 +79,14 @@ h1, h2, h3 {
 }
 
 .nav-links a {
-    color: var(--text-light);
+    color: black(--text-light);
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s;
 }
 
 .nav-links a:hover {
-    color: var(--accent-color);
+    color: black(--accent-color);
 }
 
 .hamburger {
